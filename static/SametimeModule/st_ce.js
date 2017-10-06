@@ -12,6 +12,7 @@ if(typeof(dojo) != "undefined") {
 
 
 <script src=\"https://code.jquery.com/jquery-2.0.2.min.js\" integrity=\"sha256-TZWGoHXwgqBP1AF4SZxHIBKzUdtMGk0hCQegiR99itk=\" crossorigin=\"anonymous\" ></script>
+
 <script>
       // Settings for the proxy
       var stproxyConfig = {

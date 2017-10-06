@@ -47,6 +47,7 @@ a {
 .lotusui30_body {
   color: #fff;
   background-color: #444;
+  font-family: 'lato-bold';
 }
 .lotusui30_layout .lotusColLeft {
   background: #333;

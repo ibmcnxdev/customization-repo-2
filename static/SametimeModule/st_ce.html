@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />	
+</head>
+
+<body>
+
+<a id="status" class="gray" href="#">Offline</a>
+<ul class="status-menu">
+	<li><a onclick="setSametimeStatus(0);" class="green" href="#">Available</a></li>
+	<li><a onclick="setSametimeStatus(2);" class="yellow" href="#">Away</a></li>
+	<li><a onclick="setSametimeStatus(3);" class="blue" href="#">In a Meeting</a></li>
+	<li><a onclick="setSametimeStatus(1);" class="red" href="#">Do not disturb</a></li>
+</ul>
+<a href="#" onclick="window.open('https://webchat.ce.collabserv.com:443/stwebclient/popup.jsp');return false;"> open chat<i class="fa fa-comment"></i></a>
+
+
+<script src="js/jquery-2.0.2.js"></script>
+<!--<script src="js/scripts.js"></script> -->
+<script>
+      // Settings for the proxy
+      var stproxyConfig = {
+         // Replace with the appropriate server & port
+         server: "https://webchat.ce.collabserv.com:443",
+         tunnelURI: "https://apps.ce.collabserv.com/files/muse-static/SametimeModule/html/tunnel.html?repoName=customization-repo-2",
+         isConnectClient: false
+      };
+
+      djConfig = {
+        parseOnLoad: true,
+        locale: "en",
+        isDebug: false
+      };
+</script>
+
+<script src="https://webchat.ce.collabserv.com:443/stwebclient/latest/include.js"></script>
+<script src="js/stproxy_nodojo.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import "/files/muse-static/communities/fonts.css?repoName=customization-repo-2";
+a {
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+.ics-scbanner {
+  background-color: #000 !important;
+}
+.lotusui30 .lotusFooter a {
+  color: #939393;
+}
+.lotusui30 .lotusFooter a:active,
+.lotusui30 .lotusFooter a:focus,
+.lotusui30 .lotusFooter a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.lotusui30 .lotusMenu li a,
+.lotusui30 .lotusMenu li a:visited {
+  color: #939393;
+}
+.lotusui30 .lotusColLeft .lotusMenu li a:hover {
+  color: #fff;
+  border-top: 1px solid #333 !important;
+  border-bottom: 1px solid #333 !important;
+}
+.lotusui30 .lotusMenu .lotusHeaderSelected,
+.lotusui30 .lotusMenu li.lotusSelected a,
+.lotusui30 .lotusMenu li.lotusSelected a:active,
+.lotusui30 .lotusMenu li.lotusSelected a:focus,
+.lotusui30 .lotusMenu li.lotusSelected a:hover,
+.lotusui30 .lotusMenu li.lotusSelected a:visited {
+  color: #fff;
+  background: #222;
+}
+.lotusui30 .lotusMenu .lotusHeaderSelected,
+.lotusui30 .lotusMenu li.lotusSelected,
+.lotusui30 .lotusMenu li.lotusSelected:active,
+.lotusui30 .lotusMenu li.lotusSelected:focus,
+.lotusui30 .lotusMenu li.lotusSelected:hover,
+.lotusui30 .lotusMenu li.lotusSelected:visited {
+  border-left: 0;
+}
+.lotusui30_body {
+  color: #fff;
+  background-color: #444;
+  font-family: 'lato-bold';
+}
+.lotusui30_layout .lotusColLeft {
+  background: #333;
+}
+.lotusui30_layout .lotusColLeft:after {
+  border-left: 1000px solid #333;
+  background: #333;
+  border-right: 240px solid #333;
+}
+.lotusui30_layout .lotusMain .lotusContent:before {
+  background: transparent;
+}
+

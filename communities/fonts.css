@@ -1,0 +1,21 @@
+@font-face {
+	font-family:'lato-regular';
+	src:url('/files/muse-static/communities/fonts/lato-regular-webfont.eot?repoName=customization-repo-2');
+	src:url('/files/muse-static/communities/fonts/lato-regular-webfont.eot?#iefix&repoName=customization-repo-2') format('embedded-opentype'),
+		url('/files/muse-static/communities/fonts/lato-regular-webfont.woff?repoName=customization-repo-2') format('woff'),
+		url('/files/muse-static/communities/fonts/lato-regular-webfont.ttf?repoName=customization-repo-2') format('truetype'),
+		url('/files/muse-static/communities/fonts/lato-regular-webfont.svg#lato-regular?repoName=customization-repo-2') format('svg');
+	font-weight:normal !important;
+	font-style:normal !important;
+}
+
+@font-face {
+	font-family:'lato-bold';
+	src:url('/files/muse-static/communities/fonts/lato-bol-webfont.eot?repoName=customization-repo-2');
+	src:url('/files/muse-static/communities/fonts/lato-bol-webfont.eot?#iefix&repoName=customization-repo-2') format('embedded-opentype'),
+		url('/files/muse-static/communities/fonts/lato-bol-webfont.woff?repoName=customization-repo-2') format('woff'),
+		url('/files/muse-static/communities/fonts/lato-bol-webfont.ttf?repoName=customization-repo-2') format('truetype'),
+		url('/files/muse-static/communities/fonts/lato-bol-webfont.svg#lato-regular?repoName=customization-repo-2') format('svg');
+	font-weight:normal !important;
+	font-style:normal !important;
+}
